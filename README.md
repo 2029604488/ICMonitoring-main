@@ -1,6 +1,7 @@
 # ICMonitoring-main
 ICMonitoring-main(芯片测试监控系统)前后端分离项目，Vue前端，springboot做后端
-
+后端基于springboot+mybatis+shiro+jwt框架
+前端基于html+css+js同时引入了echarts
 
 
 ### 数据怎么生成的
