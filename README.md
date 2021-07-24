@@ -1,5 +1,5 @@
-# HeatSourceMonitoring
-HeatSourceMonitoring(热源监控系统)前后端分离项目，Vue前端，springboot做后端
+# ICMonitoring-main
+ICMonitoring-main(芯片测试监控系统)前后端分离项目，Vue前端，springboot做后端
 
 
 
@@ -26,7 +26,7 @@ HeatSourceMonitoring(热源监控系统)前后端分离项目，Vue前端，spri
 maven项目，首先你需要
 
 ```
-git clone git@github.com:kklll/HeatSourceMonitoring.git
+git clone git@github.com:2029604488/ICMonitoring-main.git
 ```
 
 然后，用你的IDEA打开
