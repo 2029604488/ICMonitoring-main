@@ -40,13 +40,15 @@ npm run build
 前端使用的是Vue+Ant Design
 
 #### 前端界面
+![image](https://user-images.githubusercontent.com/84617831/126870279-b45b62fa-a446-459e-a921-4fe88305ad50.png)
+![image](https://user-images.githubusercontent.com/84617831/126870304-9f0e6a85-d1ff-4235-9436-4eb048012600.png)
+![image](https://user-images.githubusercontent.com/84617831/126870316-7018c2ec-a727-480f-ad8a-35f098323b5a.png)
+![image](https://user-images.githubusercontent.com/84617831/126870320-66d53eea-df88-44f5-9902-790b30d84d56.png)
+![image](https://user-images.githubusercontent.com/84617831/126870325-c1296323-0b9d-4a0b-9b12-8a2436e16060.png)
+![image](https://user-images.githubusercontent.com/84617831/126870332-c7cec2d3-6608-4bed-b8df-308318bec00e.png)
 
-![image-20201219202600115](https://cdn.jsdelivr.net/gh/kklll/Resources@master/pics/image-20201219202600115.png)
+
 
 账号密码要和后端配合使用,可以使用admin和123123登录。
+![image](https://user-images.githubusercontent.com/84617831/126870336-ab9f01b8-307e-4d0b-b837-fb6048ef20a6.png)
 
-![image-20201219203207815](https://cdn.jsdelivr.net/gh/kklll/Resources@master/pics/image-20201219203207815.png)
-
-![image-20201219203236596](https://cdn.jsdelivr.net/gh/kklll/Resources@master/pics/image-20201219203236596.png)
-
-![image-20201219203250001](https://cdn.jsdelivr.net/gh/kklll/Resources@master/pics/image-20201219203250001.png)
