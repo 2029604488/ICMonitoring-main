@@ -40,12 +40,12 @@ npm run build
 前端使用的是Vue+Ant Design
 
 #### 前端界面
-![image](https://user-images.githubusercontent.com/84617831/126870279-b45b62fa-a446-459e-a921-4fe88305ad50.png)
-![image](https://user-images.githubusercontent.com/84617831/126870304-9f0e6a85-d1ff-4235-9436-4eb048012600.png)
-![image](https://user-images.githubusercontent.com/84617831/126870316-7018c2ec-a727-480f-ad8a-35f098323b5a.png)
-![image](https://user-images.githubusercontent.com/84617831/126870320-66d53eea-df88-44f5-9902-790b30d84d56.png)
-![image](https://user-images.githubusercontent.com/84617831/126870325-c1296323-0b9d-4a0b-9b12-8a2436e16060.png)
-![image](https://user-images.githubusercontent.com/84617831/126870332-c7cec2d3-6608-4bed-b8df-308318bec00e.png)
+![image](https://user-images.githubusercontent.com/84617831/160568598-e3065dc7-4cbb-4d1d-bb5b-85f87248e34d.png)
+![image](https://user-images.githubusercontent.com/84617831/160568692-f482d5a3-9da4-4ff5-be4c-a9a0db387906.png)
+![image](https://user-images.githubusercontent.com/84617831/160568785-e1fbc0e0-2a0d-4c00-aee9-29300d19b277.png)
+![image](https://user-images.githubusercontent.com/84617831/160568870-a9811eec-a12b-4894-ae18-3a77482c42b3.png)
+![image](https://user-images.githubusercontent.com/84617831/160568939-cac8fa09-4c29-448e-92f0-c171143789cb.png)
+![image](https://user-images.githubusercontent.com/84617831/160569122-deb16b6a-caac-4f62-8002-d0241e65c056.png)
 
 
 
