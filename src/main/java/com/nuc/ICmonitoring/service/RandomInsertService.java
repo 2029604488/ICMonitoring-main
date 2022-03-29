@@ -65,7 +65,6 @@ public class RandomInsertService {
             for (String string : strings) {
                 HeatRecord heatRecord = dataUtil.generateRecord();
                 heatRecord.setHeatExchangeStation(string);
-                log.info(String.valueOf(heatRecord));
                 mapper.insert(heatRecord);
                 simpMessageSendingOperations.convertAndSend("/topic/public", JSON.toJSONString(heatRecord));
             }

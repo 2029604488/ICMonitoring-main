@@ -52,7 +52,6 @@ const routes = [
                 name: "forecast",
                 component: () => import(/* webpackChunkName: "Home" */ '../components/forecast')
             },
-           
         ]
     },
 
@@ -62,7 +61,7 @@ VueRouter.prototype.push = function push(location) {
     return originalPush.call(this, location).catch(err => err)
 }
 const router = new VueRouter({
-    // mode:"history",
+     mode:"hash",
     // base: process.env.BASE_RUL,
     routes
 })

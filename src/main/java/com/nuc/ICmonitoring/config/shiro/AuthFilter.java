@@ -61,6 +61,7 @@ public class AuthFilter extends BasicHttpAuthenticationFilter {//自定义nosess
     }
 
 
+
     /**
      * 请求失败拦截,请求终止，不进行转发直接返回客户端拦截结果
      *

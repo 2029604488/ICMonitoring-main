@@ -36,7 +36,7 @@
         </a-form-model-item>
         <a-form-model-item label="所属部门" required prop="belong">
           <!--          <a-input v-model="form.belong" placeholder="请输入部门"/>-->
-          <a-select default-value="晟腾芯片" v-model="form.belong">
+          <a-select default-value="飞腾芯片" v-model="form.belong">
             <a-select-option v-for="i in stations" :key="i" :value="i">
               {{ i }}
             </a-select-option>

@@ -13,6 +13,6 @@
   </resultMap>
   <sql id="Base_Column_List">
     <!--@mbg.generated-->
-    id, username, `name`, `password`, belong, phone
+    id, username, ‘name’, `password`, belong, phone
   </sql>
 </mapper>

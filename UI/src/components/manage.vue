@@ -34,7 +34,7 @@
         </a-form-model-item>
         <a-form-model-item label="芯片状态" required prop="stationState">
           <!--          <a-input v-model="form.stationState" placeholder="请输入芯片状态"/>-->
-          <a-select default-value="运行中" style="width: 120px" v-model="form.stationState">
+          <a-select default-value="0" style="width: 120px" v-model="form.stationState">
             <a-select-option value="1">
               运行中
             </a-select-option>
@@ -43,8 +43,8 @@
             </a-select-option>
           </a-select>
         </a-form-model-item>
-        <a-form-model-item label="芯片名" required prop="stationAddress">
-          <a-input v-model="form.stationAddress" placeholder="请输入芯片名"/>
+        <a-form-model-item label="所属部门" required prop="stationAddress">
+          <a-input v-model="form.stationAddress" placeholder="请输入所属部门"/>
         </a-form-model-item>
         <!--        <a-form-model-item label="芯片类型" required prop="name">-->
         <!--          <a-input v-model="form.name" placeholder="请输入类型"/>-->
@@ -70,7 +70,7 @@
         </a-form-model-item>
         <a-form-model-item label="芯片工作状态" required prop="stationState">
           <!--          <a-input v-model="edit.stationState" placeholder="请输入芯片工作状态"/>-->
-          <a-select default-value="运行中" style="width: 120px" v-model="edit.stationState">
+          <a-select default-value="0" style="width: 120px" v-model="edit.stationState">
             <a-select-option value="1">
               运行中
             </a-select-option>
@@ -126,7 +126,7 @@ export default {
     return {
       visible: false,
       visible2: false,
-      form: {stationState: "运行中"},
+      form: {stationState: "1"},
       edit: {},
       rules: {
         stationName: [{required: true, trigger: 'change', message: "请输入必填项"}],

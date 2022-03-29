@@ -1,45 +1,41 @@
 <template>
   <a-layout id="components-layout-demo-side" style="min-height: 100vh">
-    <a-layout-sider v-model="collapsed" collapsible>
-      <div class="logo">
-        <span style="color: brown">芯片监控系统</span>
-      </div>
-      <a-menu theme="dark" :defaultOpenKeys="defaultOpenKeys" mode="inline">
-        <a-sub-menu v-for="i in list" :key="i.index">
+
+    <a-layout>
+      <a-layout-header style=" padding: 0">
+        <div class="logo">
+          <span style="color: white">“华新之翼”智慧社区运维监控系统</span>
+        </div>
+        <a-menu theme="dark" :defaultOpenKeys="defaultOpenKeys" mode="horizontal">
+          <a-sub-menu v-for="i in list" :key="i.index">
           <span slot="title">
             <a-icon type="down-circle"/>
             <span>{{ i.name }}</span>
           </span>
-          <a-menu-item :to="x.path" v-for="x in i.lists" :key="x.index"
-                       @click="saveState(x.index);$router.push('/'+x.path)">
-            {{ x.name }}
-          </a-menu-item>
-        </a-sub-menu>
-      </a-menu>
-    </a-layout-sider>
-    <a-layout>
-      <a-layout-header style="background: #FFFFFF; padding: 0">
-        <template>
-          <a-page-header
-              style="border: 1px solid rgb(235, 237, 240)"
-              title="Back"
-              @back="() => this.$router.back()"
-          />
-          <!--          sub-title="This is a subtitle"-->
-        </template>
+            <a-menu-item :to="x.path" v-for="x in i.lists" :key="x.index"
+                         @click="saveState(x.index);$router.push('/'+x.path)">
+              {{ x.name }}
+            </a-menu-item>
+          </a-sub-menu>
+        </a-menu>
+
+<!--        <template>-->
+<!--          <a-page-header-->
+<!--              style="border: 1px solid rgb(235, 237, 240)"-->
+<!--              title="Back"-->
+<!--              @back="() => this.$router.back()"-->
+<!--          />-->
+<!--        </template>-->
       </a-layout-header>
-      <a-layout-content style="margin: 0 16px">
-        <a-breadcrumb style="margin: 16px 0">
-          <!--          <a-breadcrumb-item>User</a-breadcrumb-item>-->
-          <!--          <a-breadcrumb-item>Bill</a-breadcrumb-item>-->
-        </a-breadcrumb>
+      <a-layout-content style="margin: 0 16px;padding: 50px">
+
         <div :style="{ padding: '24px', background: '#fff', minHeight: '360px' }">
           <router-view></router-view>
         </div>
       </a-layout-content>
-      <a-layout-footer style="text-align: center">
-        Ant Design ©2018 Created by Ant UED
-      </a-layout-footer>
+<!--      <a-layout-footer style="text-align: center">-->
+<!--        Ant Design ©2018 Created by Ant UED-->
+<!--      </a-layout-footer>-->
     </a-layout>
   </a-layout>
 </template>
@@ -104,9 +100,9 @@ export default {
 #components-layout-demo-side .logo {
   height: 32px;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  font-size: medium;
+  font-size: 24px;
   //background: rgba(255, 255, 255, 0.2);
-  margin: 16px;
+  margin-bottom: 16px;
 }
 
 .a-menu-item {

@@ -22,7 +22,7 @@ switch (process.env.NODE_ENV) {
         baseUrl = "http://127.0.0.1:8887/api/"  //开发环境url
         break
     case 'production':
-        baseUrl = "http://dlddw.xyz:8887/api/"   //生产环境url
+        baseUrl = "http://127.0.0.1:8887/api/"   //生产环境url
         break
 }
 //axios全局配置

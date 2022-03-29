@@ -49,6 +49,7 @@ public class ShiroConfig {
         return securityManager;
     }
 
+
     @Bean
     public ShiroFilterFactoryBean shiroFilterFactoryBean() {
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();

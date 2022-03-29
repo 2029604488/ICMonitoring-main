@@ -13,7 +13,7 @@ export default {
     data() {
         return {
             promptText: "一切正常运转！",
-            imgUrl: require("@/assets/happy.jpg"),
+            imgUrl: require("@/assets/happy1.png"),
             promptGreenStyle: {
                 'background-color': '#00da00',
                 'box-shadow': '0px 0px 10px #00da00',
@@ -28,15 +28,87 @@ export default {
         };
     },
     methods: {
-        happy() {
-            this.imgUrl = require("@/assets/happy.jpg");
+       
+         happy1() {
+            this.imgUrl = require("@/assets/happy1.png");
             this.styleObj = this.promptGreenStyle;
-            this.promptText = "一切正常运转！";
+            this.promptText = "电压正常运转！";
         },
-        awkward() {
-            this.imgUrl = require("@/assets/awkward.jpg");
+         happy2() {
+            this.imgUrl = require("@/assets/happy1.png");
+            this.styleObj = this.promptGreenStyle;
+            this.promptText = "电流正常运转！";
+        },
+         happy3() {
+            this.imgUrl = require("@/assets/happy1.png");
+            this.styleObj = this.promptGreenStyle;
+            this.promptText = "频率1正常运转！";
+        },
+         happy4() {
+            this.imgUrl = require("@/assets/happy1.png");
+            this.styleObj = this.promptGreenStyle;
+            this.promptText = "频率2正常运转！";
+        },
+       
+         A1alarm1() {
+            this.imgUrl = require("@/assets/award1.png");
             this.styleObj = this.promptRedStyle;
-            this.promptText = "突然有异常了！";
+            this.promptText = "电压有一级异常出现！";
+        },
+          A1alarm2() {
+            this.imgUrl = require("@/assets/award2.png");
+            this.styleObj = this.promptRedStyle;
+            this.promptText = "电压有二级异常出现！";
+        },
+        A1alarm3() {
+            this.imgUrl = require("@/assets/award3.png");
+            this.styleObj = this.promptRedStyle;
+            this.promptText = "电压有三级异常出现！";
+        },
+          A2alarm1() {
+            this.imgUrl = require("@/assets/award1.png");
+            this.styleObj = this.promptRedStyle;
+            this.promptText = "电流有一级异常出现！";
+        },
+         A2alarm2() {
+            this.imgUrl = require("@/assets/award2.png");
+            this.styleObj = this.promptRedStyle;
+            this.promptText = "电流有二级异常出现！";
+        },
+         A2alarm3() {
+            this.imgUrl = require("@/assets/award3.png");
+            this.styleObj = this.promptRedStyle;
+            this.promptText = "电流有三级异常出现！";
+        },
+          A3alarm1() {
+            this.imgUrl = require("@/assets/award1.png");
+            this.styleObj = this.promptRedStyle;
+            this.promptText = "频率1有一级异常出现！";
+        },
+         A3alarm2() {
+            this.imgUrl = require("@/assets/award2.png");
+            this.styleObj = this.promptRedStyle;
+            this.promptText = "频率1有二级异常出现！";
+        },
+         A3alarm3() {
+            this.imgUrl = require("@/assets/award3.png");
+            this.styleObj = this.promptRedStyle;
+            this.promptText = "频率1有三级异常出现！";
+        },
+        A4alarm1() {
+            this.imgUrl = require("@/assets/award1.png");
+            this.styleObj = this.promptRedStyle;
+            this.promptText = "频率2有一级异常出现！";
+        },
+         A4alarm2() {
+            this.imgUrl = require("@/assets/award2.png");
+            this.styleObj = this.promptRedStyle;
+            this.promptText = "频率2有二级异常出现！";
+        },
+         A4alarm3() {
+            this.imgUrl = require("@/assets/award3.png");
+            this.styleObj = this.promptRedStyle;
+            this.promptText = "频率2有三级异常出现！";
         },
     },
     mounted() {
@@ -50,6 +122,7 @@ export default {
     width: 80px;
     height: 80px;
     float: left;
+ 
 }
 .prompt-text {
     width: max-content;

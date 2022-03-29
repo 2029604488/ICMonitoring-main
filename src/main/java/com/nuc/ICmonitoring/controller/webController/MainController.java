@@ -6,10 +6,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.nuc.ICmonitoring.mapper.HeatRecordMapper;
 import com.nuc.ICmonitoring.mapper.StationInfoMapper;
 import com.nuc.ICmonitoring.mapper.UsersMapper;
-import com.nuc.ICmonitoring.pojo.HeatRecord;
-import com.nuc.ICmonitoring.pojo.StationInfo;
-import com.nuc.ICmonitoring.pojo.User;
-import com.nuc.ICmonitoring.pojo.Users;
+import com.nuc.ICmonitoring.pojo.*;
 import com.nuc.ICmonitoring.service.interfaces.UserService;
 import com.nuc.ICmonitoring.utils.JwtUtils;
 import com.nuc.ICmonitoring.utils.ResultBody;
@@ -47,6 +44,8 @@ public class MainController {
 
     @Autowired
     private StationInfoMapper stationInfoMapper;
+
+
 
 
     @GetMapping("getRecord")
@@ -96,7 +95,7 @@ public class MainController {
 
     /**
      * @date: 2020/11/28 21:23
-     * @description: 获取所有的供热站
+     * @description:
      */
     @GetMapping("getStationsRunning")
     public ResultBody getStations() {
@@ -114,6 +113,9 @@ public class MainController {
         List<StationInfo> infos = stationInfoMapper.selectList(new QueryWrapper<>());
         return ResultBody.success(infos);
     }
+
+
+
 
     @PostMapping("addStation")
     public ResultBody addStation(@RequestBody StationInfo stationInfo) {
